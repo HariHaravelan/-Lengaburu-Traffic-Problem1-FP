@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="TravelPlan.js" ></script>
+  <script>
+    let result;
+    const load = () => {
+     document.getElementById("result").innerHTML = getTravelPlan(vehicles,orbits, weathers.SUNNY);
+    }
+  </script>
+  
+</head>
+
+<body onload='load()'>
+  <div id="input"></div>
+  <h1 id="result">{result}</h1>
+</body>
+
+</html>
